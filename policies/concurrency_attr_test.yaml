@@ -8,4 +8,4 @@ parameters:
   action: cancel
   threshold: 1
   attributes:
-    - label
+    - hints

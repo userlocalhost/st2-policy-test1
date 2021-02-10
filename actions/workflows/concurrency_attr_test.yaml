@@ -3,7 +3,7 @@ version: 1.0
 description: test workflow for checking policy configuration
 
 input:
-  - label
+  - hints
   - sleep_seconds
 
 tasks:
