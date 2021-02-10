@@ -1,0 +1,14 @@
+name: concurrency_attr_test
+runner_type: orquesta
+description: test workflow for test of concurrency attr configuration
+enabled: true
+entry_point: workflows/concurrency_attr_test.yaml
+parameters:
+  label:
+    type: string
+    description: identify which action would be grouped to check policy
+    required: true
+  sleep_seconds:
+    type: integer
+    description: seconds for delaying this action to finish
+    default: 5

@@ -1,0 +1,9 @@
+---
+ref: policy_test
+name: policy_test
+description: Test pack for the feature of policy
+keywords:
+  - policy
+version: 0.0.1
+author: Hiroyasu OHYAMA
+email: user.localhost2000@gmail.com

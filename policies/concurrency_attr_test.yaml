@@ -1,0 +1,11 @@
+name: test_wf.concurrency_attr
+name: policy_test
+description: Limits the concurrent executions
+enabled: true
+resource_ref: policy_test.concurrency_attr_test
+policy_type: action.concurrency.attr
+parameters:
+  action: cancel
+  threshold: 1
+  attributes:
+    - label
