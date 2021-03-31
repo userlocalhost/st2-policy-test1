@@ -1,0 +1,13 @@
+name: take_time_action
+runner_type: orquesta
+description: test workflow for test of concurrency attr configuration
+enabled: true
+entry_point: workflows/take_time_action.yaml
+parameters:
+  sleep_seconds:
+    type: integer
+    description: seconds for delaying this action to finish
+    default: 5
+  attr_test:
+    type: string
+    required: true

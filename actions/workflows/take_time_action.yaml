@@ -1,0 +1,13 @@
+version: 1.0
+
+description: test workflow for checking policy configuration
+
+input:
+  - attr_test
+  - sleep_seconds
+
+tasks:
+  test_action_for_policy:
+    action: core.local
+    input:
+      cmd: /bin/sleep <% ctx(sleep_seconds) %>

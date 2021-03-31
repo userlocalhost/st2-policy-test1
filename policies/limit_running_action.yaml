@@ -1,0 +1,9 @@
+name: limit_running_action
+pack: policy_test
+description: Limits the concurrent executions
+enabled: true
+resource_ref: policy_test.take_time_action
+policy_type: action.concurrency
+parameters:
+  action: delay
+  threshold: 1

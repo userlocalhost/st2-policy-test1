@@ -1,4 +1,5 @@
 name: concurrency_attr_test
+pack: policy_test
 runner_type: orquesta
 description: test workflow for test of concurrency attr configuration
 enabled: true
